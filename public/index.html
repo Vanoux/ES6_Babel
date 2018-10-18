@@ -11,13 +11,21 @@
 
 <body>
 
-    <h3>Exo ES6 Babel</h3>
+    <h2>Exo ES6 Babel</h2>
 
+    <h5>Saisir son nom</h5>
+        <input type="text" name="enter name" id="name" placeholder="Entrez votre nom" />
+            <button type="submit" id="submit" onclick="getValue();">Envoyer</button>
+                <div>
+                    <h4 id="answer"></h4>
+                </div>
 
-    <input type="text" name="enter name" id="name" placeholder="entrez votre nom" />
-    <button type="submit" id="submit" onclick="getValue();">Envoyer</button>
-    <div id="answer"></div>
-    <ul id="list"></ul>
+    <h5>Rechercher</h5>
+        <input type="text" id="search">
+            <button id="search">Rechercher</button>
+
+    <h5>Historique</h5>
+        <ul id="list"></ul>
 
 
     <!--<input type = "text" id = "search">
