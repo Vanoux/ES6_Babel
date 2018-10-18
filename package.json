@@ -1,5 +1,5 @@
 {
-  "name": "exo_es6_babel",
+  "name": "es6_babel",
   "version": "1.0.0",
   "description": "### Step 1 Créer un fichier app.js permettant de saluer l'utilisateur. L'utilisateur saisit son nom dans un champ de texte. Quand l'utilisateur clique sur le bouton, le programme doit afficher juste en dessous *** \"Bonjour {nom saisi} !\" ***.",
   "main": "index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vanoux/programme-dev-web.git"
+    "url": "git+https://github.com/Vanoux/ES6_Babel.git"
   },
   "author": "vanoux",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vanoux/programme-dev-web/issues"
+    "url": "https://github.com/Vanoux/ES6_Babel/issues"
   },
-  "homepage": "https://github.com/Vanoux/programme-dev-web#readme"
+  "homepage": "https://github.com/Vanoux/ES6_Babel#readme"
 }
