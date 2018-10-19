@@ -38,9 +38,9 @@ const searchValue = () => {
     let search = document.getElementById("research").value;
     
     //Si le champs de recherche est vide
-    // if(search == ""){
-    //     search = "Faite une recherche por favor !"
-    // } 
+    if(search == ""){
+        search = ""
+    } 
     
     //Compare le mot recherché avec les mot dans le tableau
     let letterMaj = search.split('');                     //On "split" le nom recherché (éclate la string en array)  
