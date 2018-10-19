@@ -13,23 +13,29 @@
 
     <h1>Exo ES6 Babel</h1>
 
-    <h3>Saisir son nom</h3>
-        <input type="text" name="enter name" id="name" placeholder="Entrez votre nom" />
-            <button type="submit" id="submit" onclick="getValue();">Envoyer</button>
+    <div class = "form">
+        <h3>Saisir son nom</h3>
+            <input type="text" name="enter name" id="name" placeholder="Entrez votre nom" />
+                <button type="submit" id="submit" onclick="getValue();">Envoyer</button>
+                    <div>
+                        <h4 id="answer"></h4>
+                    </div>
+    </div>
+
+    <div class = "form">
+        <h3>Rechercher</h3>
+            <input type="text" name="research" id="research" placeholder="Tapez votre recherche">
+                <button type="submit" id="search" onclick="searchValue();">Rechercher</button>
                 <div>
-                    <h4 id="answer"></h4>
+                    <h4 id="result"></h4>
                 </div>
+    </div>
 
-    <h3>Rechercher</h3>
-        <input type="text" name="research" id="research" placeholder="Tapez votre recherche">
-            <button type="submit" id="search" onclick="searchValue();">Rechercher</button>
-            <div>
-                <h4 id="result"></h4>
-            </div>
-
-    <h3>Historique</h3>
-        <ul id="list"></ul>
-
+    <div class = "form">        
+        <h3>Historique</h3>
+            <ul id="list"></ul>
+    </div>
+    
 </body>
 
 <script src="app.js"></script>
