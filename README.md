@@ -1,4 +1,4 @@
-# ES6_Babel# Intro Exo 
+# ES6_Babel#  Exo 
 
 ### Step 1
 Créer un fichier app.js permettant de saluer l'utilisateur. L'utilisateur saisit son nom dans un champ de texte.
